@@ -1,0 +1,233 @@
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+
+const useLeftHeaderStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      [theme.breakpoints.down('sm')]: {
+        display: 'none',
+      },
+    },
+    Trac_31: {
+      fill: 'rgba(86,86,86,1)',
+    },
+    Trac_31_svg: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '90px',
+      height: '900px',
+      left: '0px',
+      top: '0px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+
+    Trac_28: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '90px',
+      height: '399px',
+      left: '0px',
+      top: '589px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+    PathTrac_28: {
+      fill: 'rgba(190,18,12,1)',
+    },
+    Ellipse_1_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '46px',
+      height: '46px',
+      left: '-8px',
+      top: '0px',
+    },
+    Ellipse_1: {
+      fill: 'transparent',
+      stroke: 'rgba(255,255,255,1)',
+      strokeWidth: '1px',
+      strokeLinejoin: 'miter',
+      strokeLinecap: 'butt',
+      strokeMiterlimit: 4,
+      shapeRendering: 'auto',
+    },
+    Groupe_4: {
+      position: 'absolute',
+      width: '46px',
+      height: '46px',
+      left: '31px',
+      top: '659px',
+      overflow: 'visible',
+    },
+    Icon_awesome_facebook_svg: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '11.971px',
+      height: '23.227px',
+      left: '9px',
+      top: '10.763px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+    Icon_awesome_facebook: {
+      fill: 'rgba(255,255,255,1)',
+    },
+    Groupe_5: {
+      position: 'absolute',
+      width: '46px',
+      height: '46px',
+      left: '31px',
+      top: '735px',
+      overflow: 'visible',
+    },
+    Ellipse_2: {
+      fill: 'transparent',
+      stroke: 'rgba(255,255,255,1)',
+      strokeWidth: '1px',
+      strokeLinejoin: 'miter',
+      strokeLinecap: 'butt',
+      strokeMiterlimit: 4,
+      shapeRendering: 'auto',
+    },
+    Ellipse_2_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '46px',
+      height: '46px',
+      left: '-8px',
+      top: '0px',
+    },
+    Icon_awesome_linkedin_in: {
+      fill: 'rgba(255,255,255,1)',
+    },
+    Icon_awesome_linkedin_in_svg: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '18.759px',
+      height: '18.758px',
+      left: '7.5px',
+      top: '13.25px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+    Groupe_6: {
+      position: 'absolute',
+      width: '46px',
+      height: '46px',
+      left: '31px',
+      top: '810px',
+      overflow: 'visible',
+    },
+    Ellipse_3: {
+      fill: 'transparent',
+      stroke: 'rgba(255,255,255,1)',
+      strokeWidth: '1px',
+      strokeLinejoin: 'miter',
+      strokeLinecap: 'butt',
+      strokeMiterlimit: 4,
+      shapeRendering: 'auto',
+    },
+    Ellipse_3_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '46px',
+      height: '46px',
+      left: '-6px',
+      top: '0px',
+    },
+    Icon_simple_gmail: {
+      fill: 'rgba(255,255,255,1)',
+    },
+    Icon_simple_gmail_svg: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '22.309px',
+      height: '16.732px',
+      left: '7px',
+      top: '14.768px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+    Groupe_1: {
+      position: 'absolute',
+      width: '22px',
+      height: '22px',
+      left: '23px',
+      top: '105px',
+      overflow: 'visible',
+    },
+    Rectangle_2: {
+      fill: '#FFF',
+    },
+    Rectangle_2_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '5px',
+      height: '5px',
+      left: '0px',
+      top: '0px',
+    },
+    Rectangle_3: {
+      fill: '#FFF',
+    },
+    Rectangle_3_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '5px',
+      height: '5px',
+      left: '20px',
+      top: '0px',
+    },
+    Rectangle_4: {
+      fill: '#FFF',
+    },
+    Rectangle_4_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '5px',
+      height: '5px',
+      left: '0px',
+      top: '20px',
+    },
+    Rectangle_5: {
+      fill: '#FFF',
+    },
+    Rectangle_5_svg: {
+      position: 'absolute',
+      overflow: 'visible',
+      width: '5px',
+      height: '5px',
+      left: '20px',
+      top: '20px',
+    },
+    Groupe_658: {
+      position: 'absolute',
+      width: '45.5px',
+      height: '393.774px',
+      left: '20px',
+      top: '190px',
+      overflow: 'visible',
+    },
+    Groupe_176: {
+      position: 'absolute',
+      width: '45.5px',
+      height: '393.774px',
+      left: '0px',
+      top: '0px',
+      overflow: 'visible',
+    },
+
+    Trac_39_svg: {
+      overflow: 'visible',
+      position: 'absolute',
+      width: '1px',
+      height: '393.774px',
+      left: '45.5px',
+      top: '0px',
+      transform: 'matrix(1,0,0,1,0,0)',
+    },
+
+    flex: {
+      flex: 1,
+      [theme.breakpoints.down('xs')]: {
+        flex: 0,
+      },
+    },
+  })
+);
+export default useLeftHeaderStyles;
